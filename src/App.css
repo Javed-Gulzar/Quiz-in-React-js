@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+.scorearea {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #f5f5f5;
+}
+.incorrect {
+  display: inline-block;
+  margin: 0.5em ;
+}
+.correct {
+  display: inline-block;
+  margin: 1em;
+}
+.answerOptions{
+  border-radius: 10em;
+  width: 30%;
+  margin-bottom: 1em;
+  padding: 0.7em;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #42A5F5;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+.answerOptions:hover{
+  opacity: 0.8;
+  color: black;
+}
+.scoreArea{
+  display: inline-block;
+  
+}
+.correct-scoreArea{
+  width: 40%;
+  vertical-align: middle;
+  float: left;
+  color: #22c975;
+}
+.incorrect-scoreArea{
+  width: 50%;
+  float: right;
+  color: #f54242;
+}
+.usergreeting {
+  color:  #d2d43a;
+}
+.userfailedmsg {
+  color:  #e96920;
+}
+.scorestyle{
+  
+  width: 100%;
+  background-color: #f7f7f7;
+}
